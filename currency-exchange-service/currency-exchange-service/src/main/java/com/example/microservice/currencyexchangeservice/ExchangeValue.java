@@ -19,6 +19,7 @@ public class ExchangeValue {
 	@Column(name = "currency_to")
 	private String to;
 	
+	@Column(name="conversion_Multiple")
 	private long conversionMultiple;
 	
 	private String port;
